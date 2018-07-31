@@ -8,7 +8,7 @@ class App < Sinatra::Base
  end
 
  post "/" do
-   erb :new
+
  end
 
  get "/new" do
